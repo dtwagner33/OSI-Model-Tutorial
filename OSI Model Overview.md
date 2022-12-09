@@ -37,7 +37,11 @@ Individual layers have specific tasks within the general functions of their laye
 <details>
   <summary>Application Layer</summary>
 <br>
-This is the Application layer.
+The application layer is the most user-facing layer. It's what allows user applications to communicate with each other.
+  
   
 ![Application Layer](https://user-images.githubusercontent.com/75860671/206801965-4c6766aa-ec0e-4d3e-a343-c5ef076b2c80.png)
+  
+  
+The Application layer handles packaging data recieved from the Presentation layer. Before data can be sent back to the Presentation layer to travel through to other end of the model, it must be packaged in the proper format. Likely the most familiar protocol, HTTP is one example that handles data required for web page content.
   
