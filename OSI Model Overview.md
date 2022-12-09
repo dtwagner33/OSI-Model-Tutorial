@@ -59,4 +59,12 @@ The Session layer is the fifth layer and handles interhost communication.
   
 ![Session Layer](https://user-images.githubusercontent.com/75860671/206811816-de3e4850-3d3a-41f5-bd34-31e405afefa5.png)
   
-When two devices need to communicate over a network, a session must be made that opens a window for such communication. Session creation involves setup, coordination, and termination. When those two devices need to communicate, a session will be started, communication commences in the form of requests and responses, delays are set and errors are managed, and the session is destroyed after communication is complete. The Session layer recieves service requests from the Presentation layer above, and it sends service requests to the Transport layer below.
+When two devices need to communicate over a network, a session must be made that opens a window for such communication. Session creation involves setup, coordination, and termination. When those two devices need to communicate, a session will be started, communication commences in the form of requests and responses, delays are set and errors are managed, and the session is destroyed after communication is complete. The Session layer recieves service requests from the Presentation layer above, and it sends service requests to the Transport layer below.</details>
+
+<details>
+  <summary>Transport Layer</summary>
+<br>
+The Transport layer is the fourth layer and UIYFTGUOYGOIUGUIGIOUHJOLUIHIUG
+
+![Transport Layer](https://user-images.githubusercontent.com/75860671/206812345-5b4244ce-f7a4-4dc4-8248-bc2cf218003d.png)
+)
