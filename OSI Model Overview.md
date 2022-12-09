@@ -43,5 +43,5 @@ The application layer is the most user-facing layer. It's what allows user appli
 ![Application Layer](https://user-images.githubusercontent.com/75860671/206801965-4c6766aa-ec0e-4d3e-a343-c5ef076b2c80.png)
   
   
-The Application layer handles and packages data recieved from the Presentation layer. It allows users to store, access, retrieve, recieve, and send data. Before data can be sent back to the Presentation layer to travel through to other end of the model, it must be packaged in the proper format. Likely the most familiar protocol, HTTP is one example that handles data required for web page content. HTTP is only one protocol however. Check out [this link](https://link-url-here.org) for more.
+The Application layer handles and packages data recieved from the Presentation layer. It allows users to store, access, retrieve, recieve, and send data. Before data can be sent back to the Presentation layer to travel through to other end of the model, it must be packaged in the proper format. Likely the most familiar protocol, HTTP is one example that handles data required for web page content. HTTP is only one protocol however. Check out [this link](https://www.geeksforgeeks.org/protocols-application-layer/) for more.
   
