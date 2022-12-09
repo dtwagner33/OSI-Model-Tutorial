@@ -5,7 +5,7 @@ These layers enable those working with networks to narrow down the source of iss
 
 ![Layer Info](https://www.lifewire.com/thmb/v1ELh58tFZVN1RadeZxUO77eayo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/OSImodel-8d93f19d50e543348f82110aa11f7a93.jpg)
 
-Layers are ordered from highest to lowest, top to bottom. This means our first layer is the Physical layer at the bottom, and our final seventh layer is Application layer at the top. Each layer represents a specific stage in communication.
+Layers are ordered from highest to lowest, top to bottom. This means our first layer is the Physical layer at the bottom, and our final seventh layer is the Application layer at the top. Each layer represents a specific stage in communication.
 
 ---
 Upper layers:
@@ -37,7 +37,7 @@ Individual layers have specific tasks within the general functions of their laye
 <details>
   <summary>Application Layer</summary>
 <br>
-The application layer is the most user-facing layer. It's what allows user applications to communicate with each other.
+The Application layer is the seventh layer and is our most user-facing layer. It's what allows user applications to communicate with each other.
   
   
 ![Application Layer](https://user-images.githubusercontent.com/75860671/206801965-4c6766aa-ec0e-4d3e-a343-c5ef076b2c80.png)
@@ -45,3 +45,9 @@ The application layer is the most user-facing layer. It's what allows user appli
   
 The Application layer handles and packages data recieved from the Presentation layer. It allows users to store, access, retrieve, recieve, and send data. Before data can be sent back to the Presentation layer to travel through to other end of the model, it must be packaged in the proper format. Likely the most familiar protocol, HTTP is one example that handles data required for web page content. HTTP is only one protocol however. Check out [this link](https://www.geeksforgeeks.org/protocols-application-layer/) for more.
   
+<details>
+  <summary>Presentation Layer</summary>
+<br>
+The Presentation layer is the sixth layer and handles data representation, encryption, and compression.
+  
+It encrypts data for secure travel, and it decrypts data recieved for processing. 
