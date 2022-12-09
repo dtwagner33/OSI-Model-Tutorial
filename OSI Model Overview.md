@@ -30,3 +30,14 @@ Lower layers:
 
 The bottom four layers are called the media layers and handle hardware functions like routing, addressing, and flow control. 
 
+---
+
+Individual layers have specific tasks within the general functions of their layer groups. In the following pages, we will discuss the protocols and functions of each layer from top to bottom and how they interact with each other. This may seem counterintuitive initially, but the order is based on the direction data flows. Starting at layer seven, data travels from the user to layer one where it is then sent. We begin with the Application layer.
+
+<details>
+  <summary>Application Layer</summary>
+<br>
+This is the Application layer.
+  
+![Application Layer](https://user-images.githubusercontent.com/75860671/206801965-4c6766aa-ec0e-4d3e-a343-c5ef076b2c80.png)
+  
