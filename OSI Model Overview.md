@@ -50,4 +50,4 @@ The Application layer handles and packages data recieved from the Presentation l
 <br>
 The Presentation layer is the sixth layer and handles data representation, encryption, and compression.
   
-It encrypts data for secure travel, and it decrypts data recieved for processing. 
+It encrypts data for secure travel, and it decrypts data recieved for processing. One of its largest responsibilities is the translation of data. It transforms data from a system-specific format into an intermediate form that can be exchanged between different systems while preserving accurate syntax.
