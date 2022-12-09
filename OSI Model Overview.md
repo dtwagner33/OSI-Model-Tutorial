@@ -43,11 +43,13 @@ The Application layer is the seventh layer and is our most user-facing layer. It
 ![Application Layer](https://user-images.githubusercontent.com/75860671/206801965-4c6766aa-ec0e-4d3e-a343-c5ef076b2c80.png)
   
   
-The Application layer handles and packages data recieved from the Presentation layer. It allows users to store, access, retrieve, recieve, and send data. Before data can be sent back to the Presentation layer to travel through to other end of the model, it must be packaged in the proper format. Likely the most familiar protocol, HTTP is one example that handles data required for web page content. HTTP is only one protocol however. Check out [this link](https://www.geeksforgeeks.org/protocols-application-layer/) for more.
+The Application layer handles and packages data recieved from the Presentation layer. It allows users to store, access, retrieve, recieve, and send data. Before data can be sent back to the Presentation layer to travel through to other end of the model, it must be packaged in the proper format. Likely the most familiar protocol, HTTP is one example that handles data required for web page content. HTTP is only one protocol however. Check out [this link](https://www.geeksforgeeks.org/protocols-application-layer/) for more.</details>
   
 <details>
   <summary>Presentation Layer</summary>
 <br>
-The Presentation layer is the sixth layer and handles data representation, encryption, and compression.
+The Presentation layer is the sixth layer and handles data representation, encryption, and compression. It recieves data from the Application layer to send to the Session layer and vice versa.
   
-It encrypts data for secure travel, and it decrypts data recieved for processing. One of its largest responsibilities is the translation of data. It transforms data from a system-specific format into an intermediate form that can be exchanged between different systems while preserving accurate syntax.
+![Presentation Layer](https://user-images.githubusercontent.com/75860671/206810871-4fbf1760-4e6f-4454-a1bd-3ad2ee1bedda.png)
+  
+It encrypts data for secure travel, and it decrypts data recieved for processing. One of its largest responsibilities is the translation of data. It transforms data from a system-specific format into an intermediate form that can be exchanged between different systems while preserving accurate syntax. This is important to ensure that data is readable by many different machines.
