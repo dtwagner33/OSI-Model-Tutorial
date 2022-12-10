@@ -50,7 +50,9 @@ The Presentation layer is the sixth layer and handles data representation, encry
   
 ![Presentation Layer](https://user-images.githubusercontent.com/75860671/206810871-4fbf1760-4e6f-4454-a1bd-3ad2ee1bedda.png)
   
-It encrypts data for secure travel, and it decrypts data recieved for processing. One of its largest responsibilities is the translation of data. It transforms data from a system-specific format into an intermediate form that can be exchanged between different systems while preserving accurate syntax. This is important to ensure that data is readable by many different machines.</details>
+It encrypts data for secure travel, and it decrypts data recieved for processing. One of its largest responsibilities is the translation of data. It transforms data from a system-specific format into an intermediate form that can be exchanged between different systems while preserving accurate syntax. This is important to ensure that data is readable by many different machines.
+
+Presentation layer protocols can be found [here](https://www.w3.org/People/Frystyk/thesis/Presentation.html).</details>
 
 <details>
   <summary>Session Layer</summary>
@@ -59,7 +61,9 @@ The Session layer is the fifth layer and handles interhost communication.
   
 ![Session Layer](https://user-images.githubusercontent.com/75860671/206811816-de3e4850-3d3a-41f5-bd34-31e405afefa5.png)
   
-When two devices need to communicate over a network, a session must be made that opens a window for such communication. Session creation involves setup, coordination, and termination. When those two devices need to communicate, a session will be started, communication commences in the form of requests and responses, delays are set and errors are managed, and the session is destroyed after communication is complete. The Session layer recieves service requests from the Presentation layer above, and it sends service requests to the Transport layer below.</details>
+When two devices need to communicate over a network, a session must be made that opens a window for such communication. Session creation involves setup, coordination, and termination. When those two devices need to communicate, a session will be started, communication commences in the form of requests and responses, delays are set and errors are managed, and the session is destroyed after communication is complete. The Session layer recieves service requests from the Presentation layer above, and it sends service requests to the Transport layer below.
+
+Wikipedia has a good list of Session Layer protocols [here](https://en.wikipedia.org/wiki/Session_layer).</details>
 
 <details>
   <summary>Transport Layer</summary>
@@ -71,4 +75,4 @@ The Transport layer is the fourth layer and handles the actual transport of data
 
 This layer receives data from upper layers, segments it, addresses it, and sends it. Flow and error control ensure that data is transmitted successfully and to the right port. Data is transmitted in segments with headers that provide information about the data being transmitted. The Transport layer will acknowledge successful transmissions and re-transmit in the case of failure. When data arrives at its destination, the destination Transport layer will reassemble the segments of data into its whole form.
   
-Connection-oriented services are generally handled by the Transmission Control Protocol (TCP), and connectionless services tend to be handled with the User Datagram Protocol (UDP). A chart with other Transport layer protocols can be found [here](https://www.router-switch.com/faq/transport-layer-osi-layer-4-popular-transport-layer-protocols.html)
+Connection-oriented services are generally handled by the Transmission Control Protocol (TCP), and connectionless services tend to be handled with the User Datagram Protocol (UDP). A chart with other Transport layer protocols can be found [here](https://www.router-switch.com/faq/transport-layer-osi-layer-4-popular-transport-layer-protocols.html).
