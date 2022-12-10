@@ -76,6 +76,13 @@ The Transport layer is the fourth layer and handles the actual transport of data
 ![Transport Layer](https://user-images.githubusercontent.com/75860671/206812345-5b4244ce-f7a4-4dc4-8248-bc2cf218003d.png)
 )
 
-This layer receives data from upper layers, segments it, addresses it, and sends it. Flow and error control ensure that data is transmitted successfully and to the right port. Data is transmitted in segments with headers that provide information about the data being transmitted. The Transport layer will acknowledge successful transmissions and re-transmit in the case of failure. When data arrives at its destination, the destination Transport layer will reassemble the segments of data into its whole form.
+This layer receives data from upper layers, segments it, addresses the source and destination ports, and sends it to the Network layer. Flow and error control ensure that data is transmitted successfully and to the right port. Data is transmitted in segments with headers that provide information about the data being transmitted. The Transport layer will acknowledge successful transmissions and re-transmit in the case of failure. When data arrives at its destination, the destination Transport layer will reassemble the segments of data into its whole form.
   
-Connection-oriented services are generally handled by the Transmission Control Protocol (TCP), and connectionless services tend to be handled with the User Datagram Protocol (UDP). A chart with other Transport layer protocols can be found [here](https://www.router-switch.com/faq/transport-layer-osi-layer-4-popular-transport-layer-protocols.html).
+Connection-oriented services are generally handled by the Transmission Control Protocol (TCP), and connectionless services tend to be handled with the User Datagram Protocol (UDP). A chart with other Transport layer protocols can be found [here](https://www.router-switch.com/faq/transport-layer-osi-layer-4-popular-transport-layer-protocols.html).</details>
+
+<details>
+  <summary>Network Layer</summary>
+<br>
+The Network layer is the third layer and handles packet routing, logical addressing,
+  
+Data is transmitted in packets. The Network layer determines the shortest route for these packets to travel to their destination and attaches the IP addresses of the sender and receiver while logging known addresses in logical addressing to aid in routing. This process allows the layer to translate between MAC and IP addresses (physical computer addresses and network addresses respectively) to ensure proper routing.
