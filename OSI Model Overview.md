@@ -113,4 +113,8 @@ The Physical layer is the first layer (and our last) layer is responsible for, y
   
 The Physical layer handles data in bits, the smallest form of data represented in binary. When it receives data, it converts it into binary and sends it to the Data Link layer where it is put back together. When sending data, it is responsible for turning bits of information into electrical signals. This layer controls the rate of data transmission as well as how data is transmitted through physical hardware. It also defines the physical topology, or structure, of a network and its devices.
 
-[Here](https://osi-model.com/physical-layer/) is a link to the protocols of the Physical layer.
+[Here](https://osi-model.com/physical-layer/) is a link to the protocols of the Physical layer.</details>
+
+---
+
+
