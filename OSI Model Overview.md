@@ -96,4 +96,9 @@ Network layer protocols can be found [here](https://en.wikipedia.org/wiki/List_o
 <br>
 The Data Link layer is the second layer and handles the node-to-node delivery of data.
   
+![Data Link Layer](https://user-images.githubusercontent.com/75860671/206824011-639784f5-2b75-4ec3-bece-558d74793d2e.png)
+
+  
 That means this layer is in charge of delivering the data from one network entity to another entity within the same network. This means adjacent switches, routers, and computers within the same local system. The Data Link layer controls the access those entities have to each other and to the broader network to be sent out to other networks to prevent collisions of data that can cause transmissions to fail. It also handles MAC addressing to log the physical addresses of devices on a network.
+
+[This](https://osi-model.com/data-link-layer/) Data Link layer overview contains a list of Data Link layer protocols.
