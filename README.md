@@ -1,6 +1,6 @@
-# Introductory Tutorial of the OSI Model
+# Introduction to the OSI Model
 #### **Written by Drew Wagner**
-This tutorial is a basic introduction to the layers of the OSI Model of network communication. The content within is intended for networking beginners with the goal of providing basic information to develop a foundational understanding of the model's layers and their respective functions.
+This tutorial is a basic introduction to the layers of the OSI Model of network communication. The content within is intended for networking beginners with some understanding of computer data and hardware. The goal is to provide basic information to develop a foundational understanding of the model's layers and their respective functions. I will discuss what the OSI model is and the general protocols and functions of each of the seven layers, Physical through Application.
 ![OSI Model](https://user-images.githubusercontent.com/75860671/206794699-93f7d69c-a0e8-46ac-ad1f-158e11452729.png)
 
 ---
