@@ -101,4 +101,16 @@ The Data Link layer is the second layer and handles the node-to-node delivery of
   
 That means this layer is in charge of delivering the data from one network entity to another entity within the same network. This means adjacent switches, routers, and computers within the same local system. The Data Link layer controls the access those entities have to each other and to the broader network to be sent out to other networks to prevent collisions of data that can cause transmissions to fail. It also handles MAC addressing to log the physical addresses of devices on a network.
 
-[This](https://osi-model.com/data-link-layer/) Data Link layer overview contains a list of Data Link layer protocols.
+[This](https://osi-model.com/data-link-layer/) Data Link layer overview contains a list of Data Link layer protocols.</details>
+
+<details>
+  <summary>Physical Layer</summary>
+<br>
+The Physical layer is the first layer (and our last) layer is responsible for, you guessed it, the physical connections between devices.
+  
+![Physical Layer](https://user-images.githubusercontent.com/75860671/206825762-f4f0abe2-8043-4e40-904c-07d7ca1d6677.png)
+
+  
+The Physical layer handles data in bits, the smallest form of data represented in binary. When it receives data, it converts it into binary and sends it to the Data Link layer where it is put back together. When sending data, it is responsible for turning bits of information into electrical signals. This layer controls the rate of data transmission as well as how data is transmitted through physical hardware. It also defines the physical topology, or structure, of a network and its devices.
+
+[Here](https://osi-model.com/physical-layer/) is a link to the protocols of the Physical layer.
