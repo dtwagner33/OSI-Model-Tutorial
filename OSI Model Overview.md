@@ -83,10 +83,10 @@ Connection-oriented services are generally handled by the Transmission Control P
 <details>
   <summary>Network Layer</summary>
 <br>
-The Network layer is the third layer and handles packet routing, logical addressing,
+The Network layer is the third layer and handles packet routing and logical addressing.  
   
-  
-  
+![Network Layer](https://user-images.githubusercontent.com/75860671/206822236-8e3f7f6d-9bcd-4afd-974a-f05b2ffa555b.png)
+
 Data is transmitted in packets. The Network layer determines the shortest route for these packets to travel to their destination and attaches the IP addresses of the sender and receiver while logging known addresses in logical addressing to aid in routing. This process allows the layer to translate between MAC and IP addresses (physical computer addresses and network addresses respectively) to ensure proper routing.
 
 Network layer protocols can be found [here](https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)).</details>
