@@ -90,3 +90,10 @@ The Network layer is the third layer and handles packet routing and logical addr
 Data is transmitted in packets. The Network layer determines the shortest route for these packets to travel to their destination and attaches the IP addresses of the sender and receiver while logging known addresses in logical addressing to aid in routing. This process allows the layer to translate between MAC and IP addresses (physical computer addresses and network addresses respectively) to ensure proper routing.
 
 Network layer protocols can be found [here](https://en.wikipedia.org/wiki/List_of_network_protocols_(OSI_model)).</details>
+
+<details>
+  <summary>Data Link Layer</summary>
+<br>
+The Data Link layer is the second layer and handles the node-to-node delivery of data.
+  
+That means this layer is in charge of delivering the data from one network entity to another entity within the same network. This means adjacent switches, routers, and computers within the same local system. The Data Link layer controls the access those entities have to each other and to the broader network to be sent out to other networks to prevent collisions of data that can cause transmissions to fail. It also handles MAC addressing to log the physical addresses of devices on a network.
