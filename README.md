@@ -5,4 +5,4 @@ This tutorial is a basic introduction to the layers of the OSI Model of network 
 
 ---
 
-Go to [OSI Model Layers](https://github.com/ultrasoftcore345/OSI-Model-Tutorial/edit/main/OSI%20Model%20Overview.md)
+Go to [OSI Model Layers](https://github.com/ultrasoftcore345/OSI-Model-Tutorial/blob/main/OSI%20Model%20Overview.md)
