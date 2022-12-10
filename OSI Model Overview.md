@@ -117,4 +117,4 @@ The Physical layer handles data in bits, the smallest form of data represented i
 
 ---
 
-
+Thank you for reading! I hope this helped provide a basic understanding of what the OSI model is and how it functions at a surface level. Each layer has more complex functions and structure, but that is outside the scope of this tutorial.
